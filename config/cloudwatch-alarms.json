@@ -1,0 +1,19 @@
+{
+  "AlarmName": "HighCPUUsage",
+  "MetricName": "CPUUtilization",
+  "Namespace": "AWS/EC2",
+  "Statistic": "Average",
+  "Period": 300,
+  "Threshold": 80,
+  "ComparisonOperator": "GreaterThanThreshold",
+  "Dimensions": [
+    {
+      "Name": "InstanceId",
+      "Value": "i-1234567890"
+    }
+  ],
+  "EvaluationPeriods": 2,
+  "AlarmActions": [
+    "arn:aws:sns:us-west-2:123456789012:MySNSTopic"
+  ]
+}
