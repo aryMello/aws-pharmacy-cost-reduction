@@ -1,4 +1,6 @@
-# AWS Pharmacy Cost Reduction Project
+# 💊 AWS Pharmacy Cost Reduction Platform
+
+A backend platform built to compare and reduce pharmaceutical prices using a scalable Python-based stack. This project simulates a pricing intelligence tool for pharmacies, using cloud-native deployment and real-world data simulation.
 
 ## Overview
 
@@ -13,6 +15,17 @@ This project aims to reduce operational costs in pharmacies by implementing cost
 ## Architecture
 
 ![AWS Architecture Diagram](./architecture-diagram/architecture.png)
+
+### 🔧 Tech Stack
+- Python · Flask · MySQL
+- AWS EC2, Lambda, RDS
+- Docker · Postman · Git
+
+### 📦 Features
+- RESTful API for product price submission and querying
+- MySQL schema to store pricing and product details
+- Automated price comparisons with threshold alerts
+- Deployed via Docker and tested using Postman
 
 ## Implementation Steps
 
